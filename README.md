@@ -106,6 +106,7 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 | **Sauvegarde** | SQLite, en arrière-plan, rien à installer |
 
 **Va plus loin avec les autres plugins Snk** (facultatifs) :
+- **[SnkQuetes](https://github.com/SnkStudio/SnkQuetes)** : des quêtes qui donnent de l'XP de clan
 - **[SnkPNJ](https://github.com/SnkStudio/SnkPNJ)** : un personnage qui ouvre le menu du clan
 - **[SnkInterface](https://github.com/SnkStudio/SnkInterface)** : le tag du clan dans le chat, le TAB et au-dessus des têtes, avec la couleur des alliances
 - **[SnkCosmetiques](https://github.com/SnkStudio/SnkCosmetiques)** : des chapeaux, des ailes et des compagnons pour se démarquer
