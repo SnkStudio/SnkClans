@@ -106,6 +106,7 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 | **Sauvegarde** | SQLite, en arrière-plan, rien à installer |
 
 **Va plus loin avec les autres plugins Snk** (facultatifs) :
+- **[SnkInterface](https://github.com/SnkStudio/SnkInterface)** : le tag du clan dans le chat, le TAB et au-dessus des têtes, avec la couleur des alliances
 - **[SnkCosmetiques](https://github.com/SnkStudio/SnkCosmetiques)** : des chapeaux, des ailes et des compagnons pour se démarquer
 - **[SnkPass](https://github.com/SnkStudio/SnkPass)** : un pass de saison qui donne de l'XP de clan et du temps de vol
 - **[SnkBoutiques](https://github.com/SnkStudio/SnkBoutiques)** : les membres ouvrent leurs boutiques dans le territoire, avec une taxe pour la banque du clan
