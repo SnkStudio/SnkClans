@@ -24,7 +24,7 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 
 ### 📈 Les niveaux
 - **50 niveaux** : le clan gagne de l'XP en tuant des monstres, en combattant, en jouant et en réussissant des missions
-- Les niveaux débloquent des couleurs de tag et des **améliorations** : plus de membres, de coffre, de territoire et d'XP
+- Les niveaux débloquent des couleurs de tag et des **améliorations** : plus de membres, de coffre, de territoire, d'XP et de temps de vol
 
 ### 🏦 La banque et le coffre
 - Banque commune avec historique (Vault)
@@ -35,6 +35,11 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 - Protégé aussi contre les **pistons, les liquides et les distributeurs** venant de l'extérieur
 - Les bords s'affichent en particules
 
+### 🪶 Le vol dans le territoire
+- Les membres **volent chez eux** avec `/clan fly` : le temps compte seulement en vol
+- Du temps **offert chaque jour** grâce à une amélioration du clan, **acheté** dans le menu, ou gagné par **vote** (Votifier / NuVotifier)
+- **Coupé en combat**, hors du territoire et pendant une guerre, sans dégâts de chute
+
 ### ⚔️ Alliances et guerres
 - Alliés, ennemis et demandes d'alliance
 - **Guerres** avec score, temps restant, bilan et récompense
@@ -44,7 +49,7 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 - **3 missions par semaine** pour tout le clan, avec XP et argent à gagner
 
 ### 🎨 Des menus dessinés
-14 menus avec leur propre interface grâce à un pack de ressources fourni. Les joueurs qui n'ont pas le pack voient des menus classiques. Les textes des messages se changent dans un fichier.
+15 menus avec leur propre interface grâce à un pack de ressources fourni. Les joueurs qui n'ont pas le pack voient des menus classiques. Les textes des messages se changent dans un fichier.
 
 ---
 
@@ -71,10 +76,11 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 | `/clan deposer` · `retirer <montant>` | Banque du clan |
 | `/clan coffre` | Coffre partagé |
 | `/clan claim` · `unclaim` · `territoire` | Territoire |
+| `/clan fly` | Vole dans le territoire du clan |
 | `/clan allie` · `ennemi` · `neutre <tag>` | Diplomatie |
 | `/clan guerre <tag>` | Déclare la guerre |
 | `/clan info [tag]` · `liste` · `top` | Infos, liste, classement |
-| `/clan admin ...` | Recharger, supprimer un clan, régler XP, banque et niveau (admin) |
+| `/clan admin ...` | Recharger, supprimer un clan, régler XP, banque et niveau, donner du temps de vol (admin) |
 
 **Permissions :** `snkclans.admin` (admin), `snkclans.admin.bypass` (construire partout).
 
@@ -96,7 +102,7 @@ Plugin Minecraft pour serveurs <b>Paper 1.21.4 à 26.3</b>, par <b>SnkAlex</b>.<
 | **Serveur** | Paper |
 | **Java** | 21 ou plus (celui de ta version de Paper) |
 | **Conseillé** | Vault et une économie (EssentialsX, SnkMetiers...) pour la banque et les prix |
-| **Facultatif** | PlaceholderAPI |
+| **Facultatif** | PlaceholderAPI, Votifier / NuVotifier |
 | **Sauvegarde** | SQLite, en arrière-plan, rien à installer |
 
 **Va plus loin avec les autres plugins Snk** (facultatifs) :
